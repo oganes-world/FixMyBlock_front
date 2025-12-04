@@ -1,4 +1,4 @@
-![FixMyBlock Logo](docs/logo.png)
+### FixMyBlock
 
 Built for the 2025 Congressional App Challenge  
 Global Unity (GU) – Burbank, CA
@@ -9,7 +9,7 @@ Global Unity (GU) – Burbank, CA
 > To see the **original full-stack version** (frontend + backend) exactly as submitted to the Congressional App Challenge, visit and **download/clone**:  
 > 👉 https://github.com/oganes-world/FixMyBlockCA30
 
-⚠️ **Disclaimer:** All environment files, API keys, and runtime uploads (user images) are intentionally excluded from this repository for security and privacy reasons.
+⚠️ **Disclaimer:** All environment files and runtime uploads (user images) are intentionally excluded from this repository.
 
 ---
 
@@ -34,9 +34,8 @@ https://github.com/oganes-world/FixMyBlockCA30
 
 ## Live Project
 
-**Live Demo:** _Add your deployment link here (e.g. Vercel / Netlify)_
-
-(The live frontend can be connected to the original backend from the Congressional App Challenge version.)
+**Live Demo:** 
+https://fix-my-block-front.vercel.app/
 
 ---
 
@@ -44,17 +43,10 @@ https://github.com/oganes-world/FixMyBlockCA30
 
 ### This Repository (Frontend Version)
 
-**Tech used:**
+**Main tech used:**
 
 - React
 - TypeScript
-- Vite
-- Tailwind CSS
-- shadcn/ui
-- React Router
-- React Leaflet + OpenStreetMap
-- Axios (for talking to the backend API)
-- jsPDF (for generating report PDFs)
 
 This repo provides the **client-side app**:
 
@@ -147,33 +139,7 @@ Clone or download that repo if you want the full backend + database setup.
   - Simple forms
   - Easy navigation between pages
 - Responsive design for desktop and smaller screens
-- Consistent button, card, and typography styles via Tailwind + shadcn/ui
 
----
-
-## Project Structure (This Repo)
 
 ```text
-FixMyBlock-Frontend/
-  README.md
-
-  frontend/
-    package.json
-    index.html
-    src/
-      pages/
-        Index.tsx       # Landing page (Global Unity + project story)
-        Report.tsx      # “Report the Problem” view
-        Reports.tsx     # Reports map + safety view + PDF export
-        NotFound.tsx
-      components/
-        SimpleMap.tsx   # Map wrapper (React Leaflet)
-        ui/             # shadcn/ui components
-      lib/
-        reportStore.ts  # API calls and types for reports
-        utils.ts
-      hooks/
-        use-mobile.tsx
-        use-toast.ts
-    public/
-      images/           # Static images/icons
+http://localhost:5000/api
